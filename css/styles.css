@@ -1,0 +1,55 @@
+#titlePage {
+  text-align: center;
+}
+#page {
+  justify-content: center;
+}
+#content {
+  display: flex;
+  justify-content: space-around;
+}
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  width: 50%;
+  margin-right: 10px;
+  text-align: center;
+}
+img {
+  border-radius: 25px;
+}
+#tabUsers {
+  padding-left: 20px;
+  width: 30%;
+  border: 0.5px solid #ccc;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+#tabEstatiscas {
+  padding-left: 20px;
+  width: 30%;
+  border: 0.5px solid #ccc;
+  border-radius: 20px;
+  padding: 30px;
+  height: 30%;
+}
+
+.rowUser {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1px solid #ccc;
+  margin-top: 20px;
+}
+#div-input {
+  display: flex;
+  justify-content: center;
+}
+#div-input #inputName {
+  width: 70%;
+}
